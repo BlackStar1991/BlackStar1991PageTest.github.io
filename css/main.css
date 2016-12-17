@@ -55,13 +55,13 @@ ul .styleOther {
 }
 
 .topic {
-
-		height: 30px;
 		position: relative;
-		vertical-align: baseline;
+		clear: both;
+		height: 30px;
+        vertical-align: baseline;
 }
 
-.ots {
+.topic .ots {
 		margin-top: 25px;
 }
 
@@ -75,7 +75,7 @@ a.topicStyle {
 		bottom: 0;
 		left: 0;
 		right: 0;
-		width: 50%;
+		width: 55%;
 		height: 100%;
 		margin: auto;
 		line-height: 50%;
@@ -90,9 +90,6 @@ a.topicStyle {
 		font-family: "Georgia", serif;
 }
 
-.topicStyle span {
-
-}
 
 a.topicStyle:hover {
 		background-color: #86929D;
